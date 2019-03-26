@@ -16,10 +16,13 @@ for (let i = 1; i <= totalPages; i++) {
 }
 
 class Pagination extends Component {
-
-	state = {
-		currentPage: 1,
+	constructor(props) {
+		super(props);
+		this.state = {
+			currentPage: 1,
+		}
 	}
+
 
 	pageChange = (e) => {
 		this.setState({
@@ -80,7 +83,6 @@ class Pagination extends Component {
 						onClick={this.pageChange}
 					>Next &raquo;</button>
 				</ul>
-
 			</div>
 		)
 	}

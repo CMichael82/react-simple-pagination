@@ -44,3 +44,7 @@ li {
 	color: white;
 	list-style: none;
 }
+.testing{
+	display: flex;
+	flex-direction: row;
+}
