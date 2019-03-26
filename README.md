@@ -1,6 +1,8 @@
-# react-simple-pagination
+# react-simple-components
 
-A simple version of Pagination in React with previous and next buttons.
+* Pagination: A simple version of Pagination in React with previous and next buttons.
+* Table: In progress
+* Search: In progress
 
 
 ##### Technologies Used:
